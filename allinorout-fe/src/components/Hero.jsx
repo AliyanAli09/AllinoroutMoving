@@ -1,5 +1,6 @@
 import { FiStar, FiShield, FiClock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import movingImage from '/moving.jpg';
 
 const Hero = () => {
   return (
@@ -56,7 +57,7 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
               <img
-                src="../../public/moving.jpg"
+                 src={movingImage}
                 alt="Professional movers carrying boxes"
                 className="w-full h-auto rounded-xl shadow-lg"
               />
