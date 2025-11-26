@@ -82,7 +82,7 @@ const AdminLogin = () => {
             Admin Access
           </h2>
           <p className="mt-2 text-blue-100 text-sm">
-            Secure administrative portal for Book&Move
+            All In Or Out Moving - Admin Portal
           </p>
         </div>
 
